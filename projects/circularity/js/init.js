@@ -37,6 +37,11 @@ function drawCircle() {circle = draw.randomCircleInArea(canvas, true, true, "#99
     drawCircle();
     drawCircle();
     drawCircle();
+    var loopsCompleted = 0;
+while (loopsCompleted < 100) {
+  // do something
+  loopsCompleted++;
+}
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
         ////////////////////////////////////////////////////////////
